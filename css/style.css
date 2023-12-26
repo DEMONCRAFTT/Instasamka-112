@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest&family=Rubik&display=swap');
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    line-height: 145%;
+    font-size: 20px;
+}
+
+body {
+    margin: 0;
+    font-family: Onest;
+}
+
+.header {
+    background-color: rgba(212, 197, 197, 0.767);
+}
+
+nav {
+    max-width: 1160px;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.nav-link {
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 21px;
+    font-family: Rubik;
+    color: #248224;
+}
+
+.main {
+    max-width: 6160px;
+    margin: 0px auto;
+    padding: 30px 20px;
+    min-height: 100vh;
+}
+
+.info {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 25px 40px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 20px ;
+}
+
+.poza1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.centered {
+    text-align: center;
+}
+
+.celula-abilitati {
+    width: 300px;
+    font-size: 18px;
+    padding-right: 15px;
+    vertical-align: top;
+}
+
+.celula-text {
+    vertical-align: top;
+}
+
+.verde {
+    color: #248224;
+}
+
+.despre-text {
+    margin-top: 0px;
+}
+
+.img-gal {
+    height: 160px;
+}
+
+.tabel-gal {
+    width: 100%;
+}
+
+.celula-img {
+    width: 25%;
+    padding: 5px;
+}
+
+.item {
+    border-bottom: 1px solid #d9d9d9;
+    padding: 4px;
+}
+
+footer {
+    background-color: #e9e9e9;
+    text-align: center;
+    padding: 25px;
+}
+
+.tabel-contacte {
+    width: 100%;
+}
+
+.tabel-harta {
+    width: 50%;
+}
+
+.celula-formular {
+    width: 50%;
+    vertical-align: top;
+    padding: 40px;
+}
+
+.harta {
+    width: 100%;
+    height: 450px;
+    border-radius: 5px;
+}
+
+.text-input, .intrebare {
+    width: 100%;
+    font-size: 15px; 
+    border-radius: 5px;
+    border:  2px solid #d9d9d9;
+    margin-bottom: 20px;
+    font-family: Onest;
+}
+
+.intrebare {
+    resize: none;
+    height: 200px;
+}
+
+.item-h3 i {
+    padding-right: 15px;
+}
+
+
